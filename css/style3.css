@@ -1,0 +1,96 @@
+body {
+  background-color: lightblue !important;
+}
+.cont {
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  color: lightslategrey !important;
+  font-size: 20px;
+  font-family: sans-serif !important;
+}
+a {
+  text-decoration: none !important;
+  color: lightslategray !important;
+}
+a:hover {
+  color: indigo !important;
+}
+.topnav a.active {
+  border-bottom: 3px solid lightslategray !important;
+}
+.font {
+  font-family: monospace;
+  font-size: 50px !important;
+  text-align: center !important;
+  color: #007bff;
+  border-color: #007bff;
+}
+h4 {
+  color: #007bff !important ;
+}
+.center {
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
+}
+i {
+  
+  align-items: center !important;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 75%;
+/*  padding: 10px;*/
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.cont3 {display: flex; flex-direction: column; justify-content: center;align-items: center;}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .btn {width: 100%;}
+  .motivation {width:75%;}
+  nav {font-size: 15px;}
+}
+.flex {display: flex;justify-content: center;}
+.fa {margin: 0 5px;} 
