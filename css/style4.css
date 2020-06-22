@@ -1,0 +1,79 @@
+body {
+  background-color: lightblue;
+}
+img {
+  border-radius: 8px;
+}
+img.hover {
+  width: 300px;
+  height: 300px;
+}
+.font {
+  color: midnightblue;
+  font-family: "Sofia";
+  font-size: 25px;
+}
+h1:hover {
+  text-shadow: 2px 2px 5px;
+}
+#font {
+  font-family: "Sofia";
+}
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+#Bordered {
+  border: 3px solid lightslategrey;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  color: lightslategrey !important;
+  font-size: 20px;
+  font-family: sans-serif !important;
+}
+a {
+  text-decoration: none !important;
+  color: lightslategray !important;
+}
+
+a:hover {
+  color: indigo !important;
+  transition: font-size 2s;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px;
+}
+.active {
+  border-bottom: 3px solid lightslategray !important;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .grid-container {
+    display: grid;
+    grid-template-rows: 3fr;
+  }
+  nav {
+    font-size: 15px;
+  }
+}
+.zoom:hover {
+  transition: transform 2s;
+  transition-duration: 2s;
+  width: 200px;
+  height: 200px;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
